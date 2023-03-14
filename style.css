@@ -1,0 +1,64 @@
+*{
+    font-family: 'Righteous', cursive;
+}
+
+body{
+    background-color: black;
+}
+
+h1{
+    color: black;
+    font-size: 50px;
+    font-weight: bold;
+    
+}
+
+.berd{
+    color: #175cff;
+}
+
+div{
+    text-align: center;
+    align-items: center;
+}
+
+button{
+    height: 2.2em;
+    width: 5em;
+    border-radius: 10px;
+    color: white;
+    font-size: 18px;
+    transition: all 0.2s ease-in-out;
+}
+
+button:hover{
+    cursor: pointer;
+    transform: scale(1.1)
+}
+
+.start-btn{
+    background-color: green;
+    
+}
+
+.pause-btn{
+    background-color: gray;
+    
+}
+
+.stop-btn{
+    background-color: red;
+    
+}
+
+.container {
+    align-items: center;
+    gap: 2rem;
+    padding-top: 3rem;
+    height: 100vh;
+    justify-content: center;
+    background-color: white;
+}
+
+
+
